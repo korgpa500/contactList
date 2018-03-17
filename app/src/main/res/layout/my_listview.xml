@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/youssry_background">
+
+    <ImageView
+        android:id="@+id/imgContact"
+        android:layout_marginLeft="10dp"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/boss_larg"/>
+
+    <TextView
+        android:id="@+id/txtNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name : "
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/imgContact"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@color/grayBackground"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/txtNameLabel"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/txtPhoneLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone : "
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/imgContact"
+        android:layout_below="@id/txtNameLabel"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/txtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textColor="@color/grayBackground"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/txtNameLabel"
+        android:layout_below="@id/txtName"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>
